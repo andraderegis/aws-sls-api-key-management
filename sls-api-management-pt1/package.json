@@ -1,0 +1,15 @@
+{
+  "name": "sls-api-management",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx nodemon --exec yarn offline",
+    "offline": "npx sls offline start --host 0.0.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "serverless": "^2.53.1",
+    "serverless-offline": "^8.0.0"
+  }
+}
